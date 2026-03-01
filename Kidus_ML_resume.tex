@@ -190,8 +190,7 @@
     \vspace{2pt}
     {\textbf{Texas State University}} \hfill San Marcos, TX \\
     \textit{Bachelor of Science in Computer Science and Applied Math} \hfill Expected May 2027 \\
-    GPA: 3.68 \\
-    Awards: \textbf{Honors College}, \textbf{Presidential Honors Scholarship}, \textbf{Dean's List}, \textbf{Presidents List} \\
+    GPA: 3.68 \quad\textbar\quad Awards: \textbf{Honors College}, \textbf{Presidential Honors Scholarship}, \textbf{Dean's List}, \textbf{Presidents List} \\
     Relevant Coursework: Data Structures and Algorithms, Linear Algebra, Discrete Math, Intro to Probability and Statistics, Object Oriented Programming, Intro to Machine Learning, Internet Software Development
     \vspace{6pt}
 
@@ -200,9 +199,9 @@
     \vspace{2pt}
     \hrule
     \vspace{2pt}
-    \textbf{Programming:} \textbf{Python}, \textbf{C++}, \textbf{Postgres}, \textbf{JavaScript} \\
-    \textbf{Frameworks and Tools:} \textbf{React}, \textbf{FastAPI}, \textbf{SQLAlchemy}, \textbf{Git and GitHub}, \textbf{HTML and CSS}, \textbf{JSX}, \textbf{HuggingFace}, \textbf{TF-IDF} \\
-    \textbf{Concepts:} \textbf{REST APIs}, \textbf{Component Based Architecture}, \textbf{Responsive Design}, \textbf{Database Design}, \textbf{NLP}, \textbf{Transformers}, \textbf{Embeddings}, \textbf{Ranking Systems}
+    \textbf{Programming:} \textbf{Python}, \textbf{C++}, \textbf{SQL}, \textbf{Postgres} \\
+    \textbf{Frameworks and Tools:} \textbf{PyTorch}, \textbf{pandas}, \textbf{NumPy}, \textbf{scikit-learn}, \textbf{FastAPI}, \textbf{SQLAlchemy}, \textbf{Alembic}, \textbf{SQLite}, \textbf{Docker}, \textbf{Git and GitHub}, \textbf{Ruff}, \textbf{MyPy} \\
+    \textbf{Concepts:} \textbf{Deep Learning}, \textbf{NLP}, \textbf{Computer Vision}, \textbf{GNNs}, \textbf{Diffusion Models}, \textbf{Embeddings}, \textbf{Model Evaluation}
     \vspace{6pt}
 
     % EXPERIENCE
@@ -210,15 +209,24 @@
     \vspace{2pt}
     \hrule
     \vspace{2pt}
+     \textbf{Texas State University -- Computer Science Research Lab} \hfill Jan 2026 -- Present \\
+    \textit{\textbf{Undergraduate Researcher (Diffusion Models/GNNs)}} \\
+    \begin{highlights}
+        \item Curated an MNIST model zoo of \textbf{3,000 converged CNNs} for Phase 1 of graph-based diffusion neural weight initialization.
+        \item Defined a locked CNN protocol (2-3 conv blocks, channels 16-64, kernels 3/5; SGD lr 0.03, momentum 0.9) with acceptance: \textbf{train loss < 0.01 OR val acc > 98\%}.
+        \item Removed MLP variants due to long training time and low convergence, and prepared Phase 2 with \textbf{torch.fx}-based graph extraction for diffusion training.
+    \end{highlights}
+    \vspace{6pt}
+    
     \textbf{Context (Storylines) -- Social Platform Startup} \href{https://usecontexts.com}{[DEPLOYED APP]} \\
-    \textit{\textbf{Algorithms and Machine Learning Engineer (Team of 5)}} \hfill Dec 2025 -- Present \\
+    \textit{\textbf{Algorithms and Machine Learning Engineer (Team of 5)}} \hfill Nov 2025 -- Present \\
     \begin{highlights}
         \item Tackling disorganized, contextless social content by structuring posts into \textbf{storylines} to support clearer understanding and reduce misinformation.
         \item Deployed a functional \textbf{MVP} at \href{https://usecontexts.com}{usecontexts.com} using \textbf{Amazon S3}, \textbf{Prisma}, and \textbf{Vercel} as part of a five-person engineering team.
         \item Building the platform's first \textbf{recommendation engine} with experiments in \textbf{embeddings}, \textbf{similarity modeling}, and \textbf{ranking methods} for storyline-based content.
     \end{highlights}
     \vspace{6pt}
-
+   
     \textbf{HackTX 2025 -- Winner | Ayn -- ``Eyes for Coding Agents''} \href{https://devpost.com/software/orion-7jafvu}{[DEVPOST]} \hfill Oct 2025 \\
     \textit{\textbf{Backend and Machine Learning Engineer (Team of 4)}} \\
     \begin{highlights}
@@ -233,22 +241,12 @@
     \vspace{2pt}
     \hrule
     \vspace{2pt}
-
-    \textbf{Echoast -- Full Stack Application} \hfill Aug 2025 -- Dec 2025 \\
-    \textit{\textbf{Backend and Machine Learning Engineer (Team of 2)}} \\
+    \textbf{IP Law Retrieval Platform -- API-First Applied ML System} \hfill Jan 2026 -- Feb 2026 \\
+    \textit{\textbf{Machine Learning Engineer (Solo Project)}} \\
     \begin{highlights}
-        \item Co-developed a voice-based weather chatbot using \textbf{FastAPI} that lets users, including those who are blind or visually impaired, receive forecasts through natural speech.
-        \item Integrated \textbf{NWS APIs}, a \textbf{local geocoder}, and \textbf{speech pipelines} for intent-driven hands-free forecasts and alerts.
-        \item Designed a lightweight intent classifier (\textbf{TF-IDF} plus \textbf{Logistic Regression}) with fuzzy entity parsing and \textbf{TTL caching}, achieving \textbf{sub-200 ms latency} and high test coverage.
-    \end{highlights}
-    \vspace{6pt}
-
-    \textbf{SetPad AI Fitness Tracker -- Fullstack Web Application} \hfill Jun 2025 -- Sep 2025 \\
-    \textit{\textbf{Full Stack Engineer (Solo Project)}} \\
-    \begin{highlights}
-        \item Built a modular backend with \textbf{CRUD APIs} for workout and session data.
-        \item Integrated \textbf{OpenAI GPT} models for personalized coaching recommendations and automated workout planning.
-        \item Implemented an \textbf{AI-driven import pipeline} for unstructured logs and added analytics for frequency, muscle balance, and training variety.
+        \item Built an API-first IP-law retrieval platform with async workers, \textbf{SQLite/Alembic} state, and stable \textbf{/v1} contracts for reliable file and \textbf{PatentsView} ingestion with full job lifecycle ops.
+        \item Improved retrieval with \textbf{hybrid search} and optional \textbf{LlamaIndex} deep-memory ingestion, reaching \textbf{Recall@10 = 1.0000} while keeping \textbf{Precision@10 > 0.96} on a semiconductor benchmark.
+        \item Enforced a Dockerized ML quality gate (\textbf{ruff}, \textbf{mypy}, unit/integration/eval) and passed \textbf{43/43} containerized tests with healthy API and worker runtime checks.
     \end{highlights}
     \vspace{6pt}
 
