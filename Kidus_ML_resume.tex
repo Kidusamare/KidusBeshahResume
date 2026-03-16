@@ -209,14 +209,14 @@
     \vspace{2pt}
     \hrule
     \vspace{2pt}
-     \textbf{Texas State University -- Computer Science Research Lab} \hfill Jan 2026 -- Present \\
+    \textbf{Texas State University -- Computer Science Research Lab} \hfill Jan 2026 -- Present \\
     \textit{\textbf{Undergraduate Researcher (Diffusion Models/GNNs)}} \\
     \begin{highlights}
-        \item Curated an MNIST model zoo of \textbf{3,000 converged CNNs} for Phase 1 of graph-based diffusion neural weight initialization.
-        \item Defined a locked CNN protocol (2-3 conv blocks, channels 16-64, kernels 3/5; SGD lr 0.03, momentum 0.9) with acceptance: \textbf{train loss < 0.01 OR val acc > 98\%}.
-        \item Removed MLP variants due to long training time and low convergence, and prepared Phase 2 with \textbf{torch.fx}-based graph extraction for diffusion training.
+        \item Designed a graph-conditioned \textbf{DDPM} pipeline that generates neural network weight initializations from a zoo of \textbf{3,004 converged MNIST CNNs}, using PyTorch Geometric heterogeneous graphs with row, slot, and layer node types.
+        \item Trained \textbf{GNN-based denoisers} across \textbf{4 architecture iterations (V1--V4)} on \textbf{8x A5000 GPUs} with DDP, EMA, v-prediction, and per-slot normalization, progressing from divergent outputs to numerically stable generation.
+        \item Evaluated generated initializations against \textbf{Kaiming} via zero-shot accuracy and SGD convergence speed; the best variant reached \textbf{98.5\%} validation accuracy on held-out architectures, with ongoing work to close the remaining gap to baseline.
     \end{highlights}
-    \vspace{6pt}
+    \vspace{3pt}
     
     \textbf{Context (Storylines) -- Social Platform Startup} \href{https://usecontexts.com}{[DEPLOYED APP]} \\
     \textit{\textbf{Algorithms and Machine Learning Engineer (Team of 5)}} \hfill Nov 2025 -- Present \\
@@ -225,7 +225,7 @@
         \item Deployed a functional \textbf{MVP} at \href{https://usecontexts.com}{usecontexts.com} using \textbf{Amazon S3}, \textbf{Prisma}, and \textbf{Vercel} as part of a five-person engineering team.
         \item Building the platform's first \textbf{recommendation engine} with experiments in \textbf{embeddings}, \textbf{similarity modeling}, and \textbf{ranking methods} for storyline-based content.
     \end{highlights}
-    \vspace{6pt}
+    \vspace{3pt}
    
     \textbf{HackTX 2025 -- Winner | Ayn -- ``Eyes for Coding Agents''} \href{https://devpost.com/software/orion-7jafvu}{[DEVPOST]} \hfill Oct 2025 \\
     \textit{\textbf{Backend and Machine Learning Engineer (Team of 4)}} \\
@@ -234,7 +234,7 @@
         \item Built an AI-driven developer tool using \textbf{Playwright}, \textbf{Gemini Computer Use}, and \textbf{FastAPI} to probe, analyze, and interact with live web apps.
         \item Engineered a data pipeline translating \textbf{model actions} and \textbf{UI state} into \textbf{structured JSON} for accurate issue detection. Improved the agent feedback cycle with \textbf{adaptive prompts}, increasing debugging accuracy and execution speed across test cases.
     \end{highlights}
-    \vspace{6pt}
+    \vspace{3pt}
 
     % PROJECTS
     {\bfseries PROJECTS} \\
@@ -248,7 +248,7 @@
         \item Improved retrieval with \textbf{hybrid search} and optional \textbf{LlamaIndex} deep-memory ingestion, reaching \textbf{Recall@10 = 1.0000} while keeping \textbf{Precision@10 > 0.96} on a semiconductor benchmark.
         \item Enforced a Dockerized ML quality gate (\textbf{ruff}, \textbf{mypy}, unit/integration/eval) and passed \textbf{43/43} containerized tests with healthy API and worker runtime checks.
     \end{highlights}
-    \vspace{6pt}
+    \vspace{0pt}
 
     % LEADERSHIP, CLUBS AND AWARDS
     {\bfseries LEADERSHIP, CLUBS AND AWARDS} \\
@@ -257,7 +257,7 @@
     \vspace{2pt}
     \begin{highlights}
         \item SozoSMTX -- \textbf{Community Group Leader} \hfill Aug 2025 -- Present
-        \item HackTX 2025 -- \textbf{Best Use of Google Computer Use Model} -- Winner
+        \item HackTX 2025 -- \textbf{Best Use of Gemini Computer Use Model} -- Winner
     \end{highlights}
 
     % INTERESTS
